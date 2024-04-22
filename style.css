@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Full black background */
+  color: #ffffff; /* Default text color set to white */
+  font-family: 'Press Start 2P', cursive; /* Global font for consistency */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem; /* Responsive font size */
+  padding: 20px; /* Adjust padding to give the title some space */
+  margin-top: 0;
+  color: #ff0000; /* Mario red color for the heading */
+}
+
+#map {
+  height: 80vh;
+  width: 100%;
+}
+
+#interface {
+  height: 20vh;
+  background-color: #000000; /* Interface background to black */
+  display: flex;
+  justify-content: space-around; /* Updated to space-around for better spacing */
+  align-items: center;
+  padding: 0 20px;
+  color: #ffffff; /* Ensure text in the interface is white */
+}
+
+#interface p {
+  margin: 0;
+  font-size: 16px; /* Keep font size for readability */
+}
+
+#resetBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #555555; /* Darker button background for better theme integration */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resetBtn:hover {
+  background-color: #777777; /* Lighten on hover for interactive feedback */
+}
+
+.gm-style-iw-d {
+  color: #000000; /* This might need adjustment based on your specific use within Google Maps */
+}
